@@ -1,0 +1,189 @@
+prompt --application/pages/page_00009
+begin
+--   Manifest
+--     PAGE: 00009
+--   Manifest End
+wwv_flow_imp.component_begin (
+ p_version_yyyy_mm_dd=>'2022.04.12'
+,p_release=>'22.1.1'
+,p_default_workspace_id=>54225053803898075211
+,p_default_application_id=>86208
+,p_default_id_offset=>10632201745325949405
+,p_default_owner=>'WKSP_DELEGATE'
+);
+wwv_flow_imp_page.create_page(
+ p_id=>9
+,p_user_interface_id=>wwv_flow_imp.id(10634594420264037039)
+,p_name=>unistr('\062A\0642\0631\064A\0631 \0627\0644\0645\0628\0627\0644\063A \0627\0637\0628\0627\0621')
+,p_alias=>unistr('\062A\0642\0631\064A\0631-\0627\0644\0645\0628\0627\0644\063A-\0627\0637\0628\0627\0621')
+,p_step_title=>unistr('\062A\0642\0631\064A\0631 \0627\0644\0645\0628\0627\0644\063A \0627\0637\0628\0627\0621')
+,p_autocomplete_on_off=>'OFF'
+,p_page_template_options=>'#DEFAULT#'
+,p_protection_level=>'C'
+,p_page_component_map=>'18'
+,p_last_updated_by=>'AMMAR.YASIR6777@GMAIL.COM'
+,p_last_upd_yyyymmddhh24miss=>'20220624102557'
+);
+wwv_flow_imp_page.create_page_plug(
+ p_id=>wwv_flow_imp.id(13470908584214001680)
+,p_plug_name=>'Breadcrumb'
+,p_region_template_options=>'#DEFAULT#:t-BreadcrumbRegion--useBreadcrumbTitle'
+,p_component_template_options=>'#DEFAULT#'
+,p_plug_template=>wwv_flow_imp.id(10634509167320036844)
+,p_plug_display_sequence=>10
+,p_plug_display_point=>'REGION_POSITION_01'
+,p_menu_id=>wwv_flow_imp.id(10634406356860036470)
+,p_plug_source_type=>'NATIVE_BREADCRUMB'
+,p_menu_template_id=>wwv_flow_imp.id(10634571304765036965)
+);
+wwv_flow_imp_page.create_page_plug(
+ p_id=>wwv_flow_imp.id(13470909104316001681)
+,p_plug_name=>unistr('\062A\0642\0631\064A\0631 \0627\0644\0645\0628\0627\0644\063A \0627\0637\0628\0627\0621')
+,p_region_template_options=>'#DEFAULT#'
+,p_plug_template=>wwv_flow_imp.id(10634492749137036809)
+,p_plug_display_sequence=>10
+,p_query_type=>'TABLE'
+,p_query_table=>'LIST_INVOICE_DT'
+,p_include_rowid_column=>false
+,p_plug_source_type=>'NATIVE_IR'
+,p_plug_query_options=>'DERIVED_REPORT_COLUMNS'
+,p_prn_page_header=>unistr('\062A\0642\0631\064A\0631 \0627\0644\0645\0628\0627\0644\063A \0627\0637\0628\0627\0621')
+);
+wwv_flow_imp_page.create_worksheet(
+ p_id=>wwv_flow_imp.id(13470909213290001681)
+,p_name=>unistr('\062A\0642\0631\064A\0631 \0627\0644\0645\0628\0627\0644\063A \0627\0637\0628\0627\0621')
+,p_max_row_count_message=>'The maximum row count for this report is #MAX_ROW_COUNT# rows.  Please apply a filter to reduce the number of records in your query.'
+,p_no_data_found_message=>'No data found.'
+,p_pagination_type=>'ROWS_X_TO_Y'
+,p_pagination_display_pos=>'BOTTOM_RIGHT'
+,p_report_list_mode=>'TABS'
+,p_lazy_loading=>false
+,p_show_detail_link=>'N'
+,p_show_select_columns=>'N'
+,p_download_formats=>'CSV:HTML:XLSX:PDF'
+,p_enable_mail_download=>'Y'
+,p_owner=>'AMMAR.YASIR6777@GMAIL.COM'
+,p_internal_uid=>13470909213290001681
+);
+wwv_flow_imp_page.create_worksheet_column(
+ p_id=>wwv_flow_imp.id(13470909933398001760)
+,p_db_column_name=>'ID'
+,p_display_order=>0
+,p_column_identifier=>'A'
+,p_column_label=>'ID'
+,p_column_type=>'NUMBER'
+,p_display_text_as=>'HIDDEN_ESCAPE_SC'
+,p_heading_alignment=>'LEFT'
+,p_tz_dependent=>'N'
+,p_use_as_row_header=>'N'
+);
+wwv_flow_imp_page.create_worksheet_column(
+ p_id=>wwv_flow_imp.id(13470910331183001761)
+,p_db_column_name=>'RECEVE_DATE'
+,p_display_order=>2
+,p_column_identifier=>'B'
+,p_column_label=>unistr('\062A\0627\0631\064A\062E \0627\0644\0642\0627\0626\0645\0629')
+,p_column_type=>'DATE'
+,p_column_alignment=>'CENTER'
+,p_tz_dependent=>'N'
+,p_use_as_row_header=>'N'
+);
+wwv_flow_imp_page.create_worksheet_column(
+ p_id=>wwv_flow_imp.id(13470911119923001761)
+,p_db_column_name=>'PRICE'
+,p_display_order=>4
+,p_column_identifier=>'D'
+,p_column_label=>unistr('\0627\0644\0633\0639\0631')
+,p_column_type=>'NUMBER'
+,p_column_alignment=>'CENTER'
+,p_format_mask=>'999G999G999G999G999G999G990'
+,p_use_as_row_header=>'N'
+);
+wwv_flow_imp_page.create_worksheet_column(
+ p_id=>wwv_flow_imp.id(13470911523722001761)
+,p_db_column_name=>'QUANTITY'
+,p_display_order=>5
+,p_column_identifier=>'E'
+,p_column_label=>unistr('\0627\0644\0643\0645\064A\0629')
+,p_column_type=>'NUMBER'
+,p_column_alignment=>'CENTER'
+,p_use_as_row_header=>'N'
+);
+wwv_flow_imp_page.create_worksheet_column(
+ p_id=>wwv_flow_imp.id(13470911915984001762)
+,p_db_column_name=>'TOTAL_PRICE'
+,p_display_order=>6
+,p_column_identifier=>'F'
+,p_column_label=>unistr('\0627\0644\0645\062C\0645\0648\0639')
+,p_column_type=>'NUMBER'
+,p_column_alignment=>'CENTER'
+,p_format_mask=>'999G999G999G999G999G999G990'
+,p_use_as_row_header=>'N'
+);
+wwv_flow_imp_page.create_worksheet_column(
+ p_id=>wwv_flow_imp.id(13470913164683001762)
+,p_db_column_name=>'ROW_TYPE'
+,p_display_order=>17
+,p_column_identifier=>'I'
+,p_column_label=>unistr('\0646\0648\0639 \0627\0644\0642\0627\0626\0645\0629')
+,p_column_type=>'STRING'
+,p_display_text_as=>'LOV_ESCAPE_SC'
+,p_column_alignment=>'CENTER'
+,p_rpt_named_lov=>wwv_flow_imp.id(10635079563885010789)
+,p_rpt_show_filter_lov=>'1'
+,p_use_as_row_header=>'N'
+);
+wwv_flow_imp_page.create_worksheet_column(
+ p_id=>wwv_flow_imp.id(7278428301770618308)
+,p_db_column_name=>'PATIENT_NAME'
+,p_display_order=>20
+,p_column_identifier=>'L'
+,p_column_label=>unistr('\0627\0633\0645 \0627\0644\0645\0631\064A\0636')
+,p_column_type=>'STRING'
+,p_column_alignment=>'CENTER'
+,p_use_as_row_header=>'N'
+);
+wwv_flow_imp_page.create_worksheet_column(
+ p_id=>wwv_flow_imp.id(13470912709068001762)
+,p_db_column_name=>'NOTE'
+,p_display_order=>27
+,p_column_identifier=>'H'
+,p_column_label=>unistr('\0627\0644\0645\0644\0627\062D\0638\0627\062A')
+,p_column_type=>'STRING'
+,p_column_alignment=>'CENTER'
+,p_use_as_row_header=>'N'
+);
+wwv_flow_imp_page.create_worksheet_column(
+ p_id=>wwv_flow_imp.id(7278428164212618306)
+,p_db_column_name=>'DOCTOR_ID'
+,p_display_order=>47
+,p_column_identifier=>'J'
+,p_column_label=>unistr('\0627\0644\0637\0628\064A\0628')
+,p_column_type=>'NUMBER'
+,p_display_text_as=>'LOV_ESCAPE_SC'
+,p_column_alignment=>'CENTER'
+,p_rpt_named_lov=>wwv_flow_imp.id(10634911085272804092)
+,p_rpt_show_filter_lov=>'1'
+,p_use_as_row_header=>'N'
+);
+wwv_flow_imp_page.create_worksheet_column(
+ p_id=>wwv_flow_imp.id(7278428231370618307)
+,p_db_column_name=>'LIST_INVOICE_ID'
+,p_display_order=>57
+,p_column_identifier=>'K'
+,p_column_label=>'List Invoice Id'
+,p_column_type=>'NUMBER'
+,p_display_text_as=>'HIDDEN_ESCAPE_SC'
+);
+wwv_flow_imp_page.create_worksheet_rpt(
+ p_id=>wwv_flow_imp.id(13471494079235784051)
+,p_application_user=>'APXWS_DEFAULT'
+,p_report_seq=>10
+,p_report_alias=>'134714941'
+,p_status=>'PUBLIC'
+,p_is_default=>'Y'
+,p_report_columns=>'ID:RECEVE_DATE:PRICE:QUANTITY:TOTAL_PRICE:NOTE:ROW_TYPE'
+);
+wwv_flow_imp.component_end;
+end;
+/
