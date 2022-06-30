@@ -1,7 +1,7 @@
 | The screens | Insert |                                      Delete |                                          Update |
 | ----------- | :----: | ------------------------------------------: | ----------------------------------------------: |
-| Doctors     | check  |   can't delete if there list DTS use the id |                                                 |
-| Delegata    | check  |     can't delete if there list M use the id |                                                 |
+| Doctors     | check  |    |                                                 |
+| Delegata    | check  |      |                                                 |
 | list M      | check  |            عند الحذف الديتيلز يعكس البيانات | عند التحديث لا يعكس البيانات الجديده على الطبيب |
 | list DTS    | check  | عند الحذف يحذف البيانات من الطبيب و المندوب |                    عند التحديث لا يعكس البيانات |
 
