@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Ivory Dental Lab Application
 
 ## Build with Oracle Database and Oracle APEX
