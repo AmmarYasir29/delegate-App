@@ -1,9 +1,20 @@
-| The screens | Insert |                                      Delete |                                          Update |
-| ----------- | :----: | ------------------------------------------: | ----------------------------------------------: |
-| Doctors     | check  |   can't delete if there list DTS use the id |                                                 |
-| Delegata    | check  |     can't delete if there list M use the id |                                                 |
-| list M      | check  |            عند الحذف الديتيلز يعكس البيانات | عند التحديث لا يعكس البيانات الجديده على الطبيب |
-| list DTS    | check  | عند الحذف يحذف البيانات من الطبيب و المندوب |                    عند التحديث لا يعكس البيانات |
+# Ivory Dental Lab Application
+
+## Build with Oracle Database and Oracle APEX
+
+---
+
+- The App use to manage the lab business such as track the delegate and there accounts, the deadline for paying and other stuf
+- A whole authraziation and authntication system for application
+
+---
+
+| The screens | Insert |                   Delete                    |                     Update                      |
+| :---------: | :----: | :-----------------------------------------: | :---------------------------------------------: |
+|   Doctors   | check  |  can't delete if there list DTS use the id  |                                                 |
+|  Delegata   | check  |   can't delete if there list M use the id   |                                                 |
+|   list M    | check  |      عند الحذف الديتيلز يعكس البيانات       | عند التحديث لا يعكس البيانات الجديده على الطبيب |
+|  list DTS   | check  | عند الحذف يحذف البيانات من الطبيب و المندوب |          عند التحديث لا يعكس البيانات           |
 
 ---
 
