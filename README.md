@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Ivory Dental Lab Application
 
 ## Build with Oracle Database and Oracle APEX
@@ -15,6 +16,14 @@
 |  Delegata   | check  |   can't delete if there list M use the id   |                                                 |
 |   list M    | check  |      عند الحذف الديتيلز يعكس البيانات       | عند التحديث لا يعكس البيانات الجديده على الطبيب |
 |  list DTS   | check  | عند الحذف يحذف البيانات من الطبيب و المندوب |          عند التحديث لا يعكس البيانات           |
+=======
+| The screens | Insert |                                      Delete |                                          Update |
+| ----------- | :----: | ------------------------------------------: | ----------------------------------------------: |
+| Doctors     | check  |    |                                                 |
+| Delegata    | check  |      |                                                 |
+| list M      | check  |            عند الحذف الديتيلز يعكس البيانات | عند التحديث لا يعكس البيانات الجديده على الطبيب |
+| list DTS    | check  | عند الحذف يحذف البيانات من الطبيب و المندوب |                    عند التحديث لا يعكس البيانات |
+>>>>>>> d3942dce28d042e02a1055762b8c13b46758a869
 
 ---
 
